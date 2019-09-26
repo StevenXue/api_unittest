@@ -1,0 +1,96 @@
+test_add (__main__.TestMathFunc)
+Test method add(a, b) ... ok
+test_minus (__main__.TestMathFunc)
+Test method minus(a, b) ... ok
+test_divide (__main__.TestMathFunc)
+Test method divide(a, b) ... FAIL
+test_multi (__main__.TestMathFunc)
+Test method multi(a, b) ... ok
+test_add (__main__.TestMathFunc)
+Test method add(a, b) ... ok
+test_divide (__main__.TestMathFunc)
+Test method divide(a, b) ... FAIL
+test_minus (__main__.TestMathFunc)
+Test method minus(a, b) ... ok
+test_multi (__main__.TestMathFunc)
+Test method multi(a, b) ... ok
+
+======================================================================
+FAIL: test_divide (__main__.TestMathFunc)
+Test method divide(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "unit_test_example.py", line 47, in test_divide
+    self.assertEqual(2.5, divide(5, 2))
+AssertionError: 2.5 != 2
+
+======================================================================
+FAIL: test_divide (__main__.TestMathFunc)
+Test method divide(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "unit_test_example.py", line 47, in test_divide
+    self.assertEqual(2.5, divide(5, 2))
+AssertionError: 2.5 != 2
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+test_add (__main__.TestMathFunc)
+Test method add(a, b) ... ok
+test_divide (__main__.TestMathFunc)
+Test method divide(a, b) ... FAIL
+test_minus (__main__.TestMathFunc)
+Test method minus(a, b) ... ok
+test_multi (__main__.TestMathFunc)
+Test method multi(a, b) ... ok
+
+======================================================================
+FAIL: test_divide (__main__.TestMathFunc)
+Test method divide(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "unit_test_example.py", line 47, in test_divide
+    self.assertEqual(2.5, divide(5, 2))
+AssertionError: 2.5 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.009s
+
+FAILED (failures=1)
+test_add (__main__.TestMathFunc)
+Test method add(a, b) ... ok
+test_divide (__main__.TestMathFunc)
+Test method divide(a, b) ... FAIL
+test_minus (__main__.TestMathFunc)
+Test method minus(a, b) ... ok
+test_multi (__main__.TestMathFunc)
+Test method multi(a, b) ... ok
+
+======================================================================
+FAIL: test_divide (__main__.TestMathFunc)
+Test method divide(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "unit_test_example.py", line 47, in test_divide
+    self.assertEqual(2.5, divide(5, 2))
+AssertionError: 2.5 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
+test_add (__main__.TestMathFunc)
+Test method add(a, b) ... ok
+test_divide (__main__.TestMathFunc)
+Test method divide(a, b) ... skipped "I don't want to run this case."
+test_minus (__main__.TestMathFunc)
+Test method minus(a, b) ... ok
+test_multi (__main__.TestMathFunc)
+Test method multi(a, b) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK (skipped=1)
